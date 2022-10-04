@@ -1,0 +1,7 @@
+header {
+    padding: 5px;
+}
+
+header .container {
+    display: flex;
+}
