@@ -1,6 +1,9 @@
+import React from 'react';
 import './Header.css'
 import Logo from '../../assets/Logo.jpg'
-import { BsMoon, BsSun, BsHeart, CgProfile, FiShoppingCart } from 'react-icons/fa';
+import { BsMoon, BsSun, BsHeart } from "react-icons/bs";
+import { CgProfile } from "react-icons/cg";
+import { FiShoppingCart } from "react-icons/fi";
 
 function Header() {
     return (
@@ -21,13 +24,14 @@ function Header() {
                         <li><a href="BLOG">BLOG</a></li>
                     </ul>
                 </div>
-                <div className="functions">
+                {/* <div className="functions">
                     <a href="BsMoon"><BsMoon /></a>
                     <a href="BsSun"><BsSun /></a>
                     <a href="BsHeart"><BsHeart /></a>
                     <a href="CgProfile"><CgProfile /></a>
                     <a href="FiShoppingCart"><FiShoppingCart /></a>
-                </div>
+                </div> */}
+                <BsMoon />
             </div>
         </header>
     )
