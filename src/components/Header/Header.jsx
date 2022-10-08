@@ -45,6 +45,7 @@ function Header() {
                         <aside onClick={() => {
                             setLeft("-300px")
                             document.querySelector('aside').classList.remove('overlay')
+                            document.body.style.overflow = 'auto';
                         }}></aside>
 
                         <div className="mobile-menu-container" style={{ left: left }}>
