@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css'
-import { Header } from './components/import'
+import { Header, BigCarousel } from './components/import'
 
 function App() {
     return (
         <>
             <Header />
+            <BigCarousel />
         </>
     )
 }

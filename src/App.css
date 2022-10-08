@@ -6,9 +6,11 @@
     padding: 0;
     margin: 0;
 }
+
 :root {
     --color: #2ea6af;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -56,4 +58,3 @@ body {
 /*media query end*/
 
 /* global rules end*/
-
