@@ -1,0 +1,21 @@
+{
+    " BIG GOAL ": "MAKE A CLONE OF THE WEBSITE 'SHOPIED' ",
+    " SUB GOALS": {
+        "Header": {
+            "navbar": "done",
+            "make computer menu": "done",
+            "make mobile menu": "done",
+            "make it responsive": "done",
+            "css": "done",
+            "write comments": "done"
+        },
+        "Big Carousel": {
+            "work with react-bootstrap": "done",
+            "type text and inset pics": "not done",
+            "make css": "not done",
+            "make it responsive": "not done",
+            "every thing is working": "not done"
+        },
+        "carousel": {}
+    }
+}

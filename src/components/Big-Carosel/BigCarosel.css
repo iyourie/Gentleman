@@ -1,3 +1,10 @@
-.BigCarousel {
-    padding-top: 100px;
+.BigCarosel {
+    padding-top: 70px;
+    color: black;
+    background-color: var(--color);
+}
+
+.BigCarosel .carousel-caption {
+    position: relative;
+    color: black;
 }
